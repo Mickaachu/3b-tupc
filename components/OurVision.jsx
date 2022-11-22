@@ -11,6 +11,7 @@ export default function OurVision() {
           vulputate porta.
         </p>
       </div>
+
       <div className={styles.image}>
         <img src="vision-placeholder.png" />
       </div>

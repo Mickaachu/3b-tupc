@@ -3,23 +3,14 @@
 }
 
 .container h1 {
-  color: red;
   font-size: 96px;
   margin-bottom: 0px;
 }
 
-.container .tupc {
-  color: red;
-}
-
-.container .nu {
-  color: gold;
-}
-
-.container .campus {
+.container h3 {
   margin-top: 12px;
-  margin-bottom: 0px;
   font-size: 48px;
+  margin-bottom: 12px;
 }
 
 .container p {

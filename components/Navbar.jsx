@@ -4,10 +4,10 @@ import styles from "./Navbar.module.css";
 export default function Navbar() {
   return (
     <div className={styles.container}>
-      <div>
+      <div className={styles.logo}>
         <img src="tupclogo.png" />
       </div>
-      <div className={styles.navbarActions}>
+      <div className={styles.actions}>
         <Button variant="secondary">Careers</Button>
         <Button variant="secondary">Admission</Button>
         <Button variant="secondary">Registrar</Button>

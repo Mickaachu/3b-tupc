@@ -1,11 +1,24 @@
 .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   margin: 50px;
 }
 
-.navbarActions {
+.actions {
   display: flex;
   gap: 30px;
+}
+
+.hamburgerIcon {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .actions {
+    display: none;
+  }
+  .hamburgerIcon {
+    display: block;
+  }
 }
