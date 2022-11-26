@@ -1,0 +1,27 @@
+.container {
+  background-color: #c51f3b;
+  padding: 30px;
+  padding-right: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: end;
+  
+}
+
+.container h2 {
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.container p {
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 100px;
+}
+
+.image img {
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+}

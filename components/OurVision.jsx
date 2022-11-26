@@ -1,4 +1,4 @@
-import styles from "./OurVision.module.css";
+import styles from "../styles/OurVision.module.css";
 
 export default function OurVision() {
   return (
@@ -13,7 +13,7 @@ export default function OurVision() {
       </div>
 
       <div className={styles.image}>
-        <img src="vision-placeholder.png" />
+        <img src="undraw_teacher_re_sico.svg" />
       </div>
     </div>
   );

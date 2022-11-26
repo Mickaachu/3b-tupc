@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px 10px 50px;
+  position: fixed;
+  top:0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 3;
+}
+.logo img{
+  width: 80px;
+
+}
+.actions {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.actions p {
+  font-size: 18px;
+  transition-duration: 0.5s ;
+}
+.actions p:hover, .actions p:focus { 
+  animation: floating 2s ease infinite;
+  color: #c51f3b;
+}
+
+@keyframes floating {
+  0% { 
+    transform: translate(0,  0px);
+    
+    
+   }
+  50%  { 
+    transform: translate(0, -8px);
+   }
+  100%   { 
+    transform: translate(0, 0px);
+   }   
+}
+
+
+.hamburgerIcon {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .actions {
+    display: none;
+  }
+  .hamburgerIcon {
+    display: block;
+  }
+}

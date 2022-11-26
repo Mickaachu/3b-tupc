@@ -1,0 +1,30 @@
+.container {
+  padding: 50px;
+  padding-top: 40px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../public/bg-school\ 1125x750.jpg");
+  
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.container h1 {
+  font-size: 55px;
+  margin-bottom: 0px;
+  width: 700px;
+}
+
+.container h3 {
+  margin-top: 12px;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.container p {
+  font-size: 18px;
+}
